@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: hsl(257, 40%, 49%); */
+    background: rgb(103, 75, 175) url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.main-section {
+    margin-top: 20px;
+}
+
+.logo {
+    width: 120px;
+    height: 90px;
+}
+
+.container-text {
+    margin-top: 30px;
+}
+
+.container-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.container-text p {
+    max-width: 500px;
+    line-height: 30px;
+}
+
+.container-text button {
+    background-color: #ffffff;
+    color: rgb(103, 75, 175);
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+    border: none;
+    margin: 10px auto 40px;
+}
+
+.container-text a {
+    color: rgb(103, 75, 175);
+}
+
+.container-text a:hover {
+    text-decoration: none;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+span:hover{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: rgb(103, 75, 175);
+}
+
+i{
+    color: #ffffff;
+}
+
+i:hover {
+    color: rgb(103, 75, 175);
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: #ffffff; 
+}
+
+@media (min-width: 768px) {
+    body {
+        background: hsl(257, 40%, 49%) url("../images/bg-desktop.svg");
+        text-align: left;
+    }
+    .container-text h1 {
+        font-size: 38px;
+        line-height: 55px;
+        margin-bottom: 15px;
+    }
+    .card{
+        text-align: right;
+    }
+}
